@@ -1,0 +1,44 @@
+* {
+    background-color: antiquewhite;
+}
+
+div {
+    background-color: lightgreen;
+}
+
+.wrap {
+    color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    padding: 60px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+}
+
+.container div {
+    padding: 40px;
+    background-color: red;
+}
+
+.text {
+    padding: 15px;
+    background-color: blue;
+    text-align: center;
+}
+
+.container div .text {
+    background-color: black;
+}
+
+#someId {
+    padding: 20px;
+    background-color: yellow;
+}
